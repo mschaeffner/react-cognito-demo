@@ -191,6 +191,13 @@ Create a new file [src/Home.js](react-cognito-demo-frontend/src/Home.js)
 ### Run React App
 `npm start`
 
+Existing pages:
+
+Signup: http://localhost:3000/signup
+
+Login: http://localhost:3000/login
+
+
 ### Set up AWS S3 bucket for static website hosting
 
 * Log into AWS console (https://console.aws.amazon.com)
