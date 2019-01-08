@@ -132,7 +132,7 @@ export default class Signup extends Component {
 
   render() {
     return (
-      <div className="Signup">
+      <div className="Signup" style={{width: '400px', margin: '50px auto'}}>
         {this.state.newUser === null
           ? this.renderForm()
           : this.renderConfirmationForm()}

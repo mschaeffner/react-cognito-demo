@@ -25,7 +25,7 @@ export default class Home extends React.Component {
       return null
     }
     return (
-      <div>
+      <div style={{width: '400px', margin: '50px auto'}}>
         <h2>HOME</h2>
         <h3>Hello {this.state.user.attributes.email}</h3>
         <Button
