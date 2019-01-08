@@ -153,6 +153,7 @@ npm start
 
 ### Add css file for bootstrap
 In _public/index.html_ add following line in head:
+
 `<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">`
 
 
@@ -172,21 +173,23 @@ export default {
 ```
 
 ### Setup Amplify and React router
-See file [index.js](react-cognito-demo-frontend/index.js)
+See file [index.js](react-cognito-demo-frontend/src/index.js)
 
 ### Handle state of authentication
-See file [App.js](react-cognito-demo-frontend/App.js)
+See file [App.js](react-cognito-demo-frontend/src/App.js)
 
 ### Set up routes to all pages
-Create a new file [Routes.js](react-cognito-demo-frontend/Routes.js)
+Create a new file [Routes.js](react-cognito-demo-frontend/src/Routes.js)
 
 ### Set up routes to all pages
-Create a new file [Routes.js](react-cognito-demo-frontend/Routes.js)
+Create a new file [Routes.js](react-cognito-demo-frontend/src/Routes.js)
 
 ### Set up all pages
-Create a new file [Signup.js](react-cognito-demo-frontend/Signup.js)
-Create a new file [Login.js](react-cognito-demo-frontend/Login.js)
-Create a new file [Home.js](react-cognito-demo-frontend/Home.js)
+Create a new file [Signup.js](react-cognito-demo-frontend/src/Signup.js)
+
+Create a new file [Login.js](react-cognito-demo-frontend/src/Login.js)
+
+Create a new file [Home.js](react-cognito-demo-frontend/src/Home.js)
 
 ### Run React App
 `npm start`
@@ -195,8 +198,8 @@ Create a new file [Home.js](react-cognito-demo-frontend/Home.js)
 
 * Log into AWS console (https://console.aws.amazon.com)
 * Create a new S3 bucket
-* In the permissions step, make sure to uncheck *Block new public bucket policies* and *Block public and cross-account access if bucket has public policies.*
-* Go to *Permissions* tab and select *Bucket policy*
+* In the permissions step, make sure to uncheck **Block new public bucket policies** and **Block public and cross-account access if bucket has public policies.**
+* Go to **Permissions** tab and select **Bucket policy**
 * Add following content into policy editor, and replace _YOUR_S3_BUCKET_NAME_ with the name of your bucket:
 ```
 {
@@ -211,8 +214,8 @@ Create a new file [Home.js](react-cognito-demo-frontend/Home.js)
   ]
 }
 ```
-* Go to *Properties* tab and select *Static website hosting*
-* Select *Use this bucket to host a website* and add *index.html* as the Index Document and the Error Document.
+* Go to **Properties** tab and select **Static website hosting**
+* Select **Use this bucket to host a website** and add **index.html** as the Index Document and the Error Document.
 
 ### Build the React app
 `npm run build`
