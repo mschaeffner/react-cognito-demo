@@ -160,7 +160,7 @@ In _public/index.html_ add following line in head:
 
 
 ### Add Amplify config
-Create a new file _config.js_ with following content (the values are printed in console add the end of _serverless deploy -v_):
+Create a new file _config.js_ with following content (the values are printed in console at the end of _serverless deploy -v_):
 ```
 export default {
   cognito: {
