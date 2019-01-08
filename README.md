@@ -160,7 +160,7 @@ In _public/index.html_ add following line in head:
 
 
 ### Add Amplify config
-Create a new file _config.js_ with following content (the values are printed in console add the end of _serverless deploy -v_):
+Create a new file _src/config.js_ with following content (the values are printed in console at the end of _serverless deploy -v_):
 ```
 export default {
   cognito: {
@@ -173,23 +173,20 @@ export default {
 ```
 
 ### Setup Amplify and React router
-See file [index.js](react-cognito-demo-frontend/src/index.js)
+See file [src/index.js](react-cognito-demo-frontend/src/index.js)
 
 ### Handle state of authentication
-See file [App.js](react-cognito-demo-frontend/src/App.js)
+See file [src/App.js](react-cognito-demo-frontend/src/App.js)
 
 ### Set up routes to all pages
-Create a new file [Routes.js](react-cognito-demo-frontend/src/Routes.js)
-
-### Set up routes to all pages
-Create a new file [Routes.js](react-cognito-demo-frontend/src/Routes.js)
+Create a new file [src/Routes.js](react-cognito-demo-frontend/src/Routes.js)
 
 ### Set up all pages
-Create a new file [Signup.js](react-cognito-demo-frontend/src/Signup.js)
+Create a new file [src/Signup.js](react-cognito-demo-frontend/src/Signup.js)
 
-Create a new file [Login.js](react-cognito-demo-frontend/src/Login.js)
+Create a new file [src/Login.js](react-cognito-demo-frontend/src/Login.js)
 
-Create a new file [Home.js](react-cognito-demo-frontend/src/Home.js)
+Create a new file [src/Home.js](react-cognito-demo-frontend/src/Home.js)
 
 ### Run React App
 `npm start`
